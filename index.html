@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJB Web Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Anirudh J Baliga</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <img src="profile-pic.jpg" alt="My Image" class="profile-pic">
+            <h2>About Me</h2>
+            <p>As a passionate and dedicated individual entering the world of web development and machine learning, I
+                bring a strong foundation in programming languages such as JavaScript, Python, and HTML/CSS.</p>
+
+            <p>With a keen eye for detail, I am adept at working both independently and collaboratively as a team
+                player. Possessing excellent problem-solving skills, I have a deep interest in exploring cutting-edge
+                technologies and frameworks.</p>
+
+            <p>Confident in my drive, dedication, and skills, I am poised to excel in the dynamic fields of web
+                development, machine learning, and open source.</p>
+            </p>
+        </div>
+    </section>
+
+
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <span class="skill-name">HTML5</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">CSS3</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">React.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item card">
+                <h3>Web Developer Intern</h3>
+                <p>LetsGrowMore - June 2023</p>
+                <ul>
+                    <li> Troubleshooting and debugging web pages and applications for smooth functionality. </li>
+                    <li> Enhancing the User Experience by optimising the existing features. </li>
+                    <li> Worked on real-world tasks in Frontend Development. </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item card">
+                <h3>Master's Degree in Computer Science</h3>
+                <p>Bengaluru City University - 2023</p>
+            </div>
+
+            <div class="education-item card">
+                <h3>Bachelor's Degree in Computer Science</h3>
+                <p>MES College for Arts, Commerce and Science - 2018</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item card">
+                <h3>Newsday</h3>
+                <p>News Recommendation Website using Reactjs for the frontend and Nodejs for the backend as well as
+                    MongoDB as the database.</p>
+                <a href="#" target="_blank">Live Demo</a>
+                <a href="#" target="_blank">GitHub Repository</a>
+            </div>
+
+            <div class="project-item card">
+                <h3>Techno Savants</h3>
+                <p>Blogging Website using Reactjs for the frontend and Nodejs for the backend as well as MongoDB as the
+                    database.</p>
+                <a href="#" target="_blank">Live Demo</a>
+                <a href="#" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2> Contact Form </h2>
+            <form id="contact">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact me at: <a href="mailto: ajbaliga28@gmail.com"> ajbaliga28@gmail.com </a> </p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/ajbaliga28" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ajbaliga28" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
